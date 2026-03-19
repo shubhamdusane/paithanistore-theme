@@ -1,0 +1,14 @@
+{% comment %} Paithani Store Internal Links {% endcomment %}
+{%- liquid assign ch = collection.handle | default: '' -%}
+<div style="padding:20px;background:#faf7f4;border-top:1px solid #e8ddd4">
+  <p style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#888;margin:0 0 12px">Explore More</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    {%- unless ch == 'paithani-saree' -%}<a href="/collections/paithani-saree" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Paithani Sarees</a>{%- endunless -%}
+    {%- unless ch == 'narayan-peth-saree' -%}<a href="/collections/narayan-peth-saree" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Narayan Peth</a>{%- endunless -%}
+    {%- unless ch == 'nauvari-saree-online' -%}<a href="/collections/nauvari-saree-online" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Nauvari Saree</a>{%- endunless -%}
+    {%- unless ch == 'paithani-shela' -%}<a href="/collections/paithani-shela" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Paithani Shela</a>{%- endunless -%}
+    {%- unless ch == 'wedding-paithani-saree' -%}<a href="/collections/wedding-paithani-saree" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Wedding Paithani</a>{%- endunless -%}
+    {%- unless ch == 'paithani-accessories' -%}<a href="/collections/paithani-accessories" style="font-size:13px;padding:6px 14px;border:1px solid #d4b896;border-radius:20px;color:#300708;text-decoration:none;background:#fff">Accessories</a>{%- endunless -%}
+    <a href="https://wa.me/919545931007" target="_blank" rel="noopener" style="font-size:13px;padding:6px 14px;border:1px solid #25D366;border-radius:20px;color:#25D366;text-decoration:none;background:#fff;font-weight:600">💬 WhatsApp Help</a>
+  </div>
+</div>
